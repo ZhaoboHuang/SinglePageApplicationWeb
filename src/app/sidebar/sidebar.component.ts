@@ -1,15 +1,26 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router'
 
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss']
+  styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
 
-  constructor() { }
+  currentUrl: string;
 
-  ngOnInit() {
-  }
+   constructor(private router: Router) {
+      router.events.subscribe((_: NavigationEnd) => {
+    // example: NavigationStart, RoutesRecognized, NavigationEnd
+    //router.events.subscribe((_: NavigationEnd) => this.currentUrl = this.router.url);
+       if ( _.url !== undefined) {
+          this.currentUrl = _.url;
+        }
+      });
+    }
+
+
+  ngOnInit() {}
 
 }
