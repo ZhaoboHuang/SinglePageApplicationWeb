@@ -1,14 +1,4 @@
-<p>
-  login works!
-</p>
-
-<div style="text-align:center">
-  <h1>
-    Welcome to Jervis Neibourhood Management System {{ title }}
-  </h1>
-  <img width="30" height="30" alt="star" src="data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7">
-</div>
-<h2>Please enter your acount number and passwords here </h2>
+<h1>Please enter your Username and passwords here </h1>
 
  <div> 
     <form action="/action_page.php">
@@ -18,18 +8,13 @@
       <label for="Pwords">Passwords</label>
       <input type="text" id="Pwords" name="passwords" placeholder="Your passwords..">
   
-      <label for="Neighborhood">Neighborhood</label>
-      <select id="neighborhood" name="neighborhood">
-        <option value="neighborhood1">Neighborhood1</option>
-        <option value="neighborhood2">Neighborhood2</option>
-        <option value="neighborhood3">Neighborhood3</option>
-      </select>
-    
       <input type="logIn" value="Log In">
-      <h3>If you don't have an account , sign up here</h3>
-      <input type="signUp" value="Sign Up">
+      <h1>If you don't have an account , sign up here</h1>
+      <br>
     </form>
+    <a href="../signup">Sign up</a> 
   </div>
+
 <!--
   <h2>Login</h2>
 <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">

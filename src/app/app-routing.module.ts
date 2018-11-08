@@ -4,11 +4,13 @@ import { UsersComponent }from './users/users.component';
 import { DetailsComponent }from './details/details.component';
 import { PostsComponent }from './posts/posts.component';
 import { LoginComponent }from './login/login.component';
+import { HomeComponent }from './home/home.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
   {
     path:'',
-    component: UsersComponent
+    component: HomeComponent
   },
   {
     path:'details/:id',
@@ -21,6 +23,12 @@ const routes: Routes = [
   {
     path:'login',
     component: LoginComponent
+  },
+  { path:'signup',
+  component: SignupComponent
+  },
+  { path:'users',
+  component: UsersComponent
   }
 ];
 

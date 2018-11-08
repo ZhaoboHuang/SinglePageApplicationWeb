@@ -11,6 +11,11 @@ import { DetailsComponent } from './details/details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
+import { SignupComponent } from './signup/signup.component';
+
+
+import { FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,14 +25,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UsersComponent,
     DetailsComponent,
     LoginComponent,
+    HomeComponent,
+    SignupComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
-    
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

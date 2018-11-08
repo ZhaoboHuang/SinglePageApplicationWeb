@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #f2f2f2;
+    background: hsla(0, 2%, 87%, 0.582);
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
   }
@@ -18,7 +18,7 @@ body {
     padding: 0;
   }
   #container #content ul li {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.699);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 8px;
