@@ -1,4 +1,4 @@
-package com.jervisApp.service;
+package com.jervisApp.SpringBootsSignup.service;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.jervisApp.model.Role;
-import com.jervisApp.model.User;
-import com.jervisApp.repository.RoleRepository;
-import com.jervisApp.repository.UserRepository;
+import com.jervisApp.SpringBootsSignup.entity.Role;
+import com.jervisApp.SpringBootsSignup.entity.User;
+import com.jervisApp.SpringBootsSignup.repository.RoleRepository;
+import com.jervisApp.SpringBootsSignup.repository.UserRepository;
 
 @Service("userService")
 public class UserServiceImplement implements UserService{

@@ -1,4 +1,4 @@
-package com.jervisApp.model;
+package com.jervisApp.SpringBootsSignup.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

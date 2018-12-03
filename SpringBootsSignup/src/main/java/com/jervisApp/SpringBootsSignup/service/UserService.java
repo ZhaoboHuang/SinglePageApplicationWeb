@@ -1,6 +1,6 @@
-package com.jervisApp.service;
+package com.jervisApp.SpringBootsSignup.service;
 
-import com.jervisApp.model.User;
+import com.jervisApp.SpringBootsSignup.entity.User;
 
 public interface UserService {
 	public User findUserByEmail(String email);

@@ -1,4 +1,4 @@
-package com.jervisApp.controller;
+package com.jervisApp.SpringBootsSignup.controller;
 
 import javax.validation.Valid;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.jervisApp.model.User;
-import com.jervisApp.service.UserService;
+import com.jervisApp.SpringBootsSignup.entity.User;
+import com.jervisApp.SpringBootsSignup.service.UserService;
 
 @Controller
 public class UserController {

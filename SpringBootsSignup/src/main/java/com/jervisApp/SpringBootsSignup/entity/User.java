@@ -1,4 +1,4 @@
-package com.jervisApp.model;
+package com.jervisApp.SpringBootsSignup.entity;
 
 import java.util.Set;
 
